@@ -24,3 +24,16 @@ hs_err_pid*
 replay_pid*
 
 .idea/*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Sensitive files
+*.pem
+*.key
+
+# AWS credentials
+.aws/
