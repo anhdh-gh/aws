@@ -29,3 +29,7 @@ module "ec2" {
   instance_name    = "app-ec2"
   instance_type    = "t2.micro"
 }
+
+output "public_ip_ec2" {
+  value = module.ec2.public_ip_ec2
+}
